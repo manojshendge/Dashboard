@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### README: AI-Powered SaaS Dashboard
 
 #### Overview
@@ -43,3 +44,7 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
 ---
+=======
+# Dashboard
+Dashboard-UI
+>>>>>>> d7c01799ce577d6ed19e9934fa6f37152c615555
