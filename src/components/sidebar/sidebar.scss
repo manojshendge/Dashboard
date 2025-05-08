@@ -1,0 +1,108 @@
+.sidebar{
+    flex: 1;
+    border-right: 1px solid rgb(240, 240, 240);
+    min-height: 100vh;
+    background-color: white;
+
+    .top{
+        height: 55px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .brand{
+            font-size: 24px;
+            font-weight: bolder;
+            text-shadow: #74518f;
+            cursor: pointer;
+            color: transparent;
+            background: #74518f;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            background-clip: text;
+            text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+            font-family: cursive;
+        }
+    }
+
+    hr{
+        height: 0;
+        border: 0.5px solid rgb(240, 240, 240);
+    }
+    
+    .center{
+        padding-left: 20px;
+        flex: 1;
+
+        ul{
+            list-style: none;
+
+            .title{
+                font-size: 10px;
+                font-weight: bold;
+                color: #999;
+                margin-top: 15px;
+                margin-bottom: 5px;
+            }
+
+            li{
+                display: flex;
+                align-items: center;
+                padding: 5px 15px;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: #ece8ff;
+                    border-top-left-radius: 7px;
+                    border-bottom-left-radius: 7px;
+                }
+
+                .icon{
+                    font-size: 18px;
+                    color: #74518f;
+                }
+                span{
+                    margin-left: 10px;
+                    font-size: 13px;
+                    font-weight: 600;
+                    color: #888;
+                }
+            }
+        }
+
+    }
+
+    .bottom{
+        margin: 10px;
+        .title{
+            font-size: 10px;
+            font-weight: bold;
+            color: #999;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            text-transform: uppercase ;
+        }
+
+        .colors{
+            display: flex;
+            align-items: center;
+            margin-left: 25px;
+            .themeOptions{
+                width: 20px;
+                height: 20px;
+                border-radius: 5px;
+                border: 1px solid #74518f;
+                cursor: pointer;
+                margin: 5px 6px;
+    
+                &:nth-child(1){
+                    background-color: whitesmoke;
+                }
+                &:nth-child(2){
+                    background-color: #333;
+                }
+            }
+        } 
+    }
+
+}
